@@ -1,0 +1,12 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    /* background-color: skyblue; */
+    background-image: linear-gradient(to right, skyblue, darkviolet);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
