@@ -8,9 +8,10 @@ header {
     /* background-color: skyblue; */
     background-image: linear-gradient(to right, skyblue, darkviolet);
     color: white;
-    font-size: 20px;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .card-title {
@@ -18,14 +19,20 @@ header {
 }
 
 .city {
-    border: 2px solid black;
+    border: 1px solid gray;
 }
 
 .daycard {
     background-color: gray;
     color: aliceblue;
+    margin: 0.75rem;
 }
 
 .searchblock {
     border-bottom: 2px solid black;
+}
+
+button {
+    background-color: lightcyan;
+    margin: 0.5rem;
 }
