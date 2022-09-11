@@ -16,3 +16,16 @@ header {
 .card-title {
     font-weight: bold;
 }
+
+.city {
+    border: 2px solid black;
+}
+
+.daycard {
+    background-color: gray;
+    color: aliceblue;
+}
+
+.searchblock {
+    border-bottom: 2px solid black;
+}

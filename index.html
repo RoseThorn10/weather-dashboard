@@ -11,19 +11,76 @@
 <body>
     <header>Weather Dashboard</header>
 
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <input type="text" class="city" placeholder="Search for a city"> 
-            <button class="city">Search</button>
-            <div class="card col-9">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>    
-            </div>     
-        </div>    
-    </div>
+            <!-- left column -->
+            <div class="col-sm">
+                <div class="col searchblock">
+                    <input type="text" class="city" placeholder="Search for a city"> 
+                    <button class="d-block city">Search</button>
+                </div>
+                <button class="d-block">Libertyville</button>  
+            </div>
+            <!-- right column  -->
+            <div class = "col-lg">
+                <div class="city">
+                    <h5 class="card-title">City - Date</h5>
+                    <p class="card-text">Temp</p>
+                    <p class="card-text">Wind</p>
+                    <p class="card-text">Humidity</p>
+                    <p class="card-text">UV Index</p>
+                </div>
+                <div class="row days">
+                    <div class="daycard">
+                        <p>Date: </p>
+                        <p>Icon: </p>
+                        <p>Temp: </p>
+                        <p>Wind: </p>
+                        <p>Humidity: </p>
 
+                    </div>
+                    <div class="daycard">
+                        <p>Date: </p>
+                        <p>Icon: </p>
+                        <p>Temp: </p>
+                        <p>Wind: </p>
+                        <p>Humidity: </p>
+                    </div>
+                    <div class="daycard">
+                        <p>Date: </p>
+                        <p>Icon: </p>
+                        <p>Temp: </p>
+                        <p>Wind: </p>
+                        <p>Humidity: </p>
+                    </div>
+                    <div class="daycard">
+                        <p>Date: </p>
+                        <p>Icon: </p>
+                        <p>Temp: </p>
+                        <p>Wind: </p>
+                        <p>Humidity: </p>
+                    </div>
+                    <div class="daycard">
+                        <p>Date: </p>
+                        <p>Icon: </p>
+                        <p>Temp: </p>
+                        <p>Wind: </p>
+                        <p>Humidity: </p>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>    
+            <!-- <div>    
+                <div class="card col-10">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>    
+                </div>     
+            </div>    -->
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 </body>
 </html>
