@@ -105,9 +105,9 @@ $(document).ready(function() {
 
 
                     // Now fetch forecast data
-                    url = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=${APIKey}`;
+                    url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=${APIKey}`;
 
-
+                    // `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=${APIKey}&units=imperial`
                 
                     fetch(url)
                     .then(function (response) {
