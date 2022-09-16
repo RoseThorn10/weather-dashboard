@@ -93,6 +93,11 @@ $(document).ready(function() {
                         localStorage.setItem("cityList", JSON.stringify(cityList));
 
                         $("#searchText").val("");
+
+                        // $(".historyBtn").click(function(event) {
+                        //     var cityName = $(event.target).text();
+                        //     getWeather(cityName);
+                        //});
                     }
 
 
