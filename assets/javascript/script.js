@@ -94,10 +94,10 @@ $(document).ready(function() {
 
                         $("#searchText").val("");
 
-                        // $(".historyBtn").click(function(event) {
-                        //     var cityName = $(event.target).text();
-                        //     getWeather(cityName);
-                        //});
+                        $(".historyBtn").click(function(event) {
+                            var cityName = $(event.target).text();
+                            getWeather(cityName);
+                        });
                     }
 
 
